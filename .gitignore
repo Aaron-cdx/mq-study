@@ -1,0 +1,93 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Aaron-cdx
+apache
+/
+dubbo
+3.3k
+34.4k22.9k
+Code
+Issues
+763
+Pull requests
+206
+Actions
+Projects
+4
+Wiki
+Security
+Insights
+dubbo/.gitignore
+@mercyblitz
+mercyblitz add visual-studio-code ignore (#6221) (#6287)
+…
+Latest commit e4c7330 on 8 Jun 2020
+ History
+ 11 contributors
+@chickenlj@liangfei0201@oaoit@mercyblitz@ralf0131@weipeng2k@cvictory@oldratlee@Jeff-Lv@htynkn@LiosWong
+46 lines (38 sloc)  498 Bytes
+
+# maven ignore
+target/
+*.jar
+!.mvn/wrapper/*
+*.war
+*.zip
+*.tar
+*.tar.gz
+.flattened-pom.xml
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# visual-studio-code ignore
+.vscode/
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+*.orig
+
+# license check result
+license-list
+
+# grpc compiler
+compiler/gradle.properties
+compiler/build/*
+compiler/.gradle/*
+
+# protobuf
+dubbo-serialization/dubbo-serialization-protobuf/build/*
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
